@@ -5,7 +5,8 @@
   "author": "Leonardo Corbi",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev ./src/server.ts"
+    "dev": "ts-node-dev ./src/server.ts",
+    "vercel-build": "npx prisma migrate deploy"
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
